@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:mobilebillingsystem/screen/signup_screen.dart';
+import 'package:mobilebillingsystem/screen/welcome_screen.dart';
 
 void main() {
   runApp(MyApp());
@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
 
         primarySwatch: Colors.blue,
       ),
-      home:SignupScreen(),
+      home:HomePage(),
     );
   }
 }

@@ -83,7 +83,7 @@ class _LoginScreenState extends State<LoginScreen> {
 
         onPressed: () {},
         child: const Text(
-          "SignUp",
+          "Login",
           textAlign: TextAlign.center,
           style: TextStyle(
               fontSize: 20, color: Colors.white, fontWeight: FontWeight.bold),
@@ -127,7 +127,7 @@ class _LoginScreenState extends State<LoginScreen> {
                           height: 200,
 
                           child: Image.asset(
-                            "assets/app-icon.png",
+                            "assets/login.jpg",
                             fit: BoxFit.contain,
                           ),
                         ),

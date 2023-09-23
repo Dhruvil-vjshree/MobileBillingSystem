@@ -149,7 +149,7 @@ class _SignupScreenState extends State<SignupScreen> {
 
        onPressed: () {},
        child: const Text(
-           "SignUp",
+           "Signup",
           textAlign: TextAlign.center,
          style: TextStyle(
            fontSize: 20, color: Colors.white, fontWeight: FontWeight.bold),
@@ -160,6 +160,17 @@ class _SignupScreenState extends State<SignupScreen> {
 
 
     return Scaffold(
+        appBar: AppBar(
+          backgroundColor: Colors.transparent,
+          elevation: 0,
+          leading: IconButton(
+            icon: Icon(Icons.arrow_back, color: Colors.blueAccent),
+            onPressed: () {
+              // main page pr jva mate nu arrow
+              Navigator.of(context).pop();
+            },
+          ),
+        ),
       backgroundColor: Colors.white,
       body: Center(
 
@@ -182,7 +193,7 @@ class _SignupScreenState extends State<SignupScreen> {
                         height: 200,
 
                         child: Image.asset(
-                          "assets/app-icon.png",
+                          "assets/signup.jpg",
                         fit: BoxFit.contain,
                         ),
                       ),
